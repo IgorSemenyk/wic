@@ -1,3 +1,4 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
 body {
   background-color: #1B1F28;
   color: white;
@@ -380,3 +381,30 @@ section.portfolio {
         display: none; }
       section.portfolio .portfolioMainContainer .portfolioDetails .portfolioItemsDetail.active {
         display: block; }
+
+.intro-container-main {
+  height: 100%;
+  width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Roboto Mono', monospace;
+  background: #212121;
+  height: 100%; }
+
+.intro-text {
+  font-weight: 100;
+  font-size: 28px;
+  color: #fafafa; }
+
+.dud {
+  color: #757575; }
